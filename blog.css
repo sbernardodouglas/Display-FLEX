@@ -1,0 +1,28 @@
+.portfolio {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.portfolio-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.portfolio-item {
+  flex: 1;
+  min-width: 250px;
+  padding: 10px;
+}
+
+.portfolio-item h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.portfolio-item p {
+  margin-top: 5px;
+  font-size: 0.95rem;
+} 
